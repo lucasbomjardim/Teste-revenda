@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/fontawsomeCRACK/all.min.css" />
+    <title>AndreCar</title>
+  </head>
+  <body>
+    <div class="row">
+      <img
+        class="ml-5"
+        src="https://revendas.seminovosbh.com.br/6092a587497fb2d7d78794d8bbf9cef9a509-270x.jpg"
+        alt="Logo AndreCar"
+      />
+      <ul class="mt-4 col list-unstyled text-center font-weight-bold">
+        <li>Av. Pedro II, 1900</li>
+        <li>Carlos Prates - BH/MG</li>
+        <li class="ml-2">
+          Contato por e-mail: thiagosantana@andrecarbh.com.br
+        </li>
+      </ul>
+      <ul class="mt-4 col list-unstyled text-center font-weight-bold">
+        <li><i class="fas fa-phone"></i> Fone:</li>
+        <li>(31) 3411-8035</li>
+        <li>(31) 3207-4700</li>
+      </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <i class="fas fa-home-lg text-white d-none d-sm-block hover-x"></i>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Estoque</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carros Zero Km</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quero Vender</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financiamento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Localização</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="btn btn-secondary bg-warning border border-light"
+          data-toggle="modal"
+          data-target="#ExemploModalCentralizado"
+        >
+          <b>Encontre seu veículo</b>
+        </button>
+        <div
+          class="modal fade"
+          id="ExemploModalCentralizado"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="TituloModalCentralizado"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header bg-dark">
+                <h5 class="modal-title" id="TituloModalCentralizado">
+                  <b class="text-white">Encontre seu veículo</b>
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Fechar"
+                >
+                  <span aria-hidden="true" class="text-danger">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-center bg-dark">
+								<button type="button" class="btn">
+									<div class="d-inline p-2 bg-dark text-white">
+										<i class="fas fa-car icon-size"></i><span class="font-weight-bold ml-1">Carro</span>
+										<p>
+											<a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+												aria-controls="collapseExample">
+												Selecionar Marca, Modelo e Ano
+											</a>
+										</p>
+										<div class="collapse" id="collapseExample">
+											<div class="card card-body">
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Marca</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>Audi</option>
+															<option>BMW</option>
+															<option>Citroen</option>
+															<option>Datsun</option>
+															<option>Ford</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Modelo</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>A3</option>
+															<option>A4</option>
+															<option>R8</option>
+															<option>RS3</option>
+															<option>RS4</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">De:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Até:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</button>
+								<button type="button" class="btn">
+									<div class="d-inline p-2 bg-dark text-white">
+										<i class="fas fa-motorcycle icon-size"></i><span class="font-weight-bold ml-1">Moto</span>
+										<p>
+											<a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+												aria-controls="collapseExample">
+												Selecionar Marca, Modelo e Ano
+											</a>
+										</p>
+										<div class="collapse" id="collapseExample">
+											<div class="card card-body">
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Marca</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>Aprilia</option>
+															<option>Harley-Davidson</option>
+															<option>Honda</option>
+															<option>Kasinsk</option>
+															<option>Kawasaki</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Modelo</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>Dorsoduro 900</option>
+															<option>Tuono V4 1100</option>
+															<option>Tuono V4 1100 RR</option>
+															<option>RSV4 1100</option>
+															<option>Shiver 900</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">De:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Até:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</button>
+								<button type="button" class="btn">
+									<div class="d-inline p-2 bg-dark text-white">
+										<i class="fas fa-truck-moving icon-size"></i><span class="font-weight-bold ml-1">Caminhão</span>
+										<p>
+											<a class="btn btn-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+												aria-controls="collapseExample">
+												Selecionar Marca, Modelo e Ano
+											</a>
+										</p>
+										<div class="collapse" id="collapseExample">
+											<div class="card card-body">
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Marca</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>DAF</option>
+															<option>Ford</option>
+															<option>GMC</option>
+															<option>Mercedes Benz</option>
+															<option>Volkswgen</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Modelo</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>Accelo</option>
+															<option>Actros</option>
+															<option>Atego</option>
+															<option>Atron</option>
+															<option>Axor</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">De:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+												<form>
+													<div class="form-group">
+														<label for="exampleFormControlSelect1" class="text-body">Até:</label>
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>1995</option>
+															<option>1996</option>
+															<option>1997</option>
+															<option>1998</option>
+															<option>1999</option>
+															<option>2000</option>
+															<option>2001</option>
+															<option>2002</option>
+															<option>2003</option>
+															<option>2004</option>
+															<option>2005</option>
+															<option>2006</option>
+															<option>2007</option>
+															<option>2008</option>
+															<option>2009</option>
+															<option>2010</option>
+															<option>2011</option>
+															<option>2012</option>
+															<option>2013</option>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+														</select>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</button>
+              </div>
+              <div class="modal-footer bg-dark">
+                </button>
+                <button type="button" class="btn btn-warning text-white">
+                  <b>Buscar Resultados</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container  font-weight-bold">
+        <h1 class="font-weight-bold">ESTOQUE</h1>
+        <div class="row">
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Ford Fusion"
+              src="https://carros.seminovosbh.com.br/ford-furglaine-2013-2014-2491206-1544c379e24ed0ef981d13e30e61c65eee6b.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Ford Fusion 2013/2014</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 59.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Honda Fit"
+              src="https://carros.seminovosbh.com.br/honda-fit-2012-2013-2445794-775073a81448536d28f70808399437a3c2d8.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Honda Fit 2012/2013</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 36.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Kia Sportage"
+              src="https://carros.seminovosbh.com.br/kia-motors-sportage-2012-2013-2474450-58389be283539d8a6438cd5e619c1d6fd03c.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Kia Sportage 2012/2013</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 69.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Fiat Punto"
+              src="https://carros.seminovosbh.com.br/fiat-punto-2015-2016-2476199-5787eeeba56bee1559ebf37a10e1dd674487.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Fiat Punto 2015/2016</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 42.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Fiat Linea"
+              src="https://carros.seminovosbh.com.br/fiat-linea-2009-2010-2476226-8614387bb445a945119dbaa681979958954c.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Fiat Linea 2009/2010</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 24.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Fiat Palio"
+              src="https://carros.seminovosbh.com.br/fiat-palio-2012-2013-2479640-13518b8a662208983eb41e199d4f670f9b28.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold">Fiat Palio</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 20.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Honda HR-V"
+              src="https://carros.seminovosbh.com.br/honda-hr-v-2015-2016-2479645-1827b793791e7e6cd361197271b63eecdd8c.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Honda HR-V 2015/2016</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 71.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Mitsubishi Pajero TR4"
+              src="https://carros.seminovosbh.com.br/mitsubishi-pajero-tr4-2012-2013-2481587-24778d51dab5bed7ec64b77a0981e4af3807.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Mitsubishi Pajero TR4</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 42.800,00</span>
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid"
+              alt="Peugeot 307"
+              src="https://carros.seminovosbh.com.br/peugeot-307-2009-2010-2485313-29667d189054c0a7d450cd6bf3ede5fc2de2.jpg"
+            />
+            <i class="fas fa-car mt-1 mr-1"></i
+            ><span class="car-title-color font-weight-bold"
+              >Peugeot 307 2009/2010</span
+            ><br />
+            <i class="fas fa-gas-pump mt-1 mr-1"></i><span>Flex</span><br />
+            <i class="fas fa-money-bill-wave mt-1 mr-1"></i
+            ><span>R$ 23.800,00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a
+              class="page-link page-navigation-color"
+              href="#"
+              aria-label="Previous"
+            >
+              <span aria-hidden="true">&laquo; Anterior</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link class page-navigation-color" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link page-navigation-color" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link page-navigation-color" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a
+              class="page-link page-navigation-color"
+              href="#"
+              aria-label="Next"
+            >
+              <span aria-hidden="true">Próximo &raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <footer class="footer text-center mt-1 pb-1">
+      <img class="mt-3" src="http://www.andrecarbh.com.br/img/seminovos.png" />
+      <ul class="list-unstyled text-white font-weight-bold">
+        <li>Seminovos BH</li>
+        <li>&copy; Copyright 2019</li>
+      </ul>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/fontawsomeCRACK/all.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

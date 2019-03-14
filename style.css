@@ -1,0 +1,22 @@
+.imagem-estoque {
+  max-width: 284px;
+  max-height: auto;
+}
+.container-size {
+  max-width: min-content;
+}
+.car-title-color {
+  color: chocolate;
+}
+.footer {
+  background-color: #343a40;
+}
+.hover-x :hover {
+  color: orange;
+}
+.page-navigation-color {
+  color: #000000;
+}
+.icon-size {
+  font-size: 3rem;
+}
